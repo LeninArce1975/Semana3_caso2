@@ -26,6 +26,7 @@ public class V1 extends JFrame implements ActionListener {
 	private JTextArea txtS;
 	private JLabel lblNewLabel_1;
 	private JLabel lblNewLabel_2;
+	private JButton btnNewButton_1;
 
 	/**
 	 * Launch the application.
@@ -90,6 +91,11 @@ public class V1 extends JFrame implements ActionListener {
 			lblNewLabel_2 = new JLabel("abcdefg");
 			lblNewLabel_2.setBounds(30, 56, 45, 13);
 			contentPane.add(lblNewLabel_2);
+		}
+		{
+			btnNewButton_1 = new JButton("Borrar");
+			btnNewButton_1.setBounds(287, 52, 85, 21);
+			contentPane.add(btnNewButton_1);
 		}
 	}
 
