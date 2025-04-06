@@ -25,6 +25,7 @@ public class V1 extends JFrame implements ActionListener {
 	private JScrollPane scrollPane;
 	private JTextArea txtS;
 	private JLabel lblNewLabel_1;
+	private JLabel lblNewLabel_2;
 
 	/**
 	 * Launch the application.
@@ -84,6 +85,11 @@ public class V1 extends JFrame implements ActionListener {
 			lblNewLabel_1 = new JLabel("Verificando");
 			lblNewLabel_1.setBounds(283, 70, 89, 13);
 			contentPane.add(lblNewLabel_1);
+		}
+		{
+			lblNewLabel_2 = new JLabel("abcdefg");
+			lblNewLabel_2.setBounds(30, 56, 45, 13);
+			contentPane.add(lblNewLabel_2);
 		}
 	}
 
